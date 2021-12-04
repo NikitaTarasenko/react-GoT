@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    outline: none;
+}
+body {
+    overflow-x: hidden;
+    background: url('./bg.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-size: 16px;
+    height: 100%;	
+    /* animation: bodyA 26s linear infinite; */
+}
+@keyframes bodyA {
+    0%{
+        background-position : 100% 100%;
+    }
+   
+    100%{
+        background-position : 100% -205%;
+    }
+}
